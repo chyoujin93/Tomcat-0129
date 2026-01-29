@@ -18,3 +18,4 @@
 <h3> 합: ${Integer.parseInt(param.num1) + Integer.parseInt(param.num2) } </h3>
 </body>
 </html>
+
