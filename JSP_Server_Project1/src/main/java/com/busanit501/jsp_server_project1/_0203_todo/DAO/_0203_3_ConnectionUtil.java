@@ -1,18 +1,17 @@
 package com.busanit501.jsp_server_project1._0203_todo.DAO;
 
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 import java.sql.Connection;
 
-public enum _0203_3_ConnectionUtill {
+public enum _0203_3_ConnectionUtil {
     INSTANCE;
 
     private HikariDataSource ds; // DB 연결하는 도구.
 
     // 생성자
-    _0203_3_ConnectionUtill() {
+    _0203_3_ConnectionUtil() {
         HikariConfig config = new HikariConfig();
         config.setDriverClassName("org.mariadb.jdbc.Driver");
         config.setJdbcUrl("jdbc:mariadb://localhost:3306/webdb");
