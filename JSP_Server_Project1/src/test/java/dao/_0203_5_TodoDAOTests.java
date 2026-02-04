@@ -1,14 +1,10 @@
-package com.busanit501.jsp_server_project1;
+package dao;
 
-import com.busanit501.jsp_server_project1._0203_todo.DAO._0203_3_ConnectionUtil;
 import com.busanit501.jsp_server_project1._0203_todo.DAO._0203_4_TodoDAO;
 import com.busanit501.jsp_server_project1._0203_todo.domain._0203_1_TodoVO;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.PreparedStatement;
 import java.time.LocalDate;
 import java.util.List;
 

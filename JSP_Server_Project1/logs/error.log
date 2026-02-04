@@ -1,0 +1,60 @@
+12:05:28.082 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+12:05:28.089 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+12:05:28.113 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:22:41.535 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:22:41.545 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:22:41.580 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:26:17.128 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:26:17.132 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:26:17.154 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:27:41.731 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:27:41.735 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:27:41.753 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:28:01.560 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:28:01.565 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:28:01.594 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:28:10.414 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:28:10.418 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:28:10.437 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:28:36.149 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:28:36.153 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:28:36.174 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:29:39.494 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:29:39.498 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:29:39.518 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:06.143 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:38:06.148 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:06.166 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:22.873 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:38:22.877 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:22.897 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:32.335 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:38:32.339 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:32.358 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:57.163 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:38:57.168 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:38:57.188 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:39:22.847 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+14:39:22.852 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+14:39:22.874 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+15:31:59.990 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+15:31:59.994 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+15:32:00.015 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+15:55:43.659 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+15:55:43.662 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+15:55:43.683 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:01:00.433 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+16:01:00.437 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:01:00.458 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:32:37.116 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+16:32:37.120 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:32:37.140 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:32:41.922 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+16:32:41.926 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:32:41.945 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:33:09.171 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+16:33:09.175 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:33:09.197 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:36:38.296 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-로그 라이브러리 Log4j2 기능 테스트
+16:36:38.300 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0204_6_TodoServiceTests-_0204_1_TodoDTO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)
+16:36:38.322 [Test worker] INFO  com.busanit501.jsp_server_project1._0204_todo.service._0204_4_TodoService-_0204_4_TodoService에서 register 작업중, 변환 결과 확인 todoVO : _0204_2_TodoVO(tno=null, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true)

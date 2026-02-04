@@ -1,4 +1,4 @@
-package com.busanit501.jsp_server_project1;
+package dao;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
