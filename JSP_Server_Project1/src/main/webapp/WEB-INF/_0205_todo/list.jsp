@@ -6,12 +6,15 @@
 </head>
 <body>
 <div>
-    <a href="/todo/register_0204">글쓰기</a>
+    <a href="/todo/register_0205">글쓰기</a>
 </div>
 <ul>
     <c:forEach var="dto" items="${dtoList}">
         <li>
-                ${dto}
+            <span>${dto.tno}</span>
+            <span><a href="/todo/read_0205?tno=${dto.tno}">${dto.title}</a></span>
+            <span>${dto.dueDate}</span>
+            <span>${dto.finished ? "완료" : "미완료"}</span>
         </li>
     </c:forEach>
 </ul>

@@ -1,4 +1,4 @@
-package com.busanit501.jsp_server_project1._0204_todo.DAO;
+package com.busanit501.jsp_server_project1._0204_todo.dao;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -6,12 +6,14 @@ import com.zaxxer.hikari.HikariDataSource;
 import java.sql.Connection;
 
 public enum _0203_3_ConnectionUtil {
+
     INSTANCE;
 
     private HikariDataSource ds; // DB 연결하는 도구.
 
     // 생성자
     _0203_3_ConnectionUtil() {
+        // HikariConfig 클래스 이용해서, 옵션 설정.
         HikariConfig config = new HikariConfig();
         config.setDriverClassName("org.mariadb.jdbc.Driver");
         config.setJdbcUrl("jdbc:mariadb://localhost:3306/webdb");
@@ -24,16 +26,15 @@ public enum _0203_3_ConnectionUtil {
         config.addDataSourceProperty("cachePrepStmts", "true");
         // 각 연결(Connection)당 캐시할 수 있는 PreparedStatement의 최대 개수입니다.
         config.addDataSourceProperty("prepStmtCacheSize", "250");
-        // - **개념**: 캐시할 수 있는 SQL 문의 최대 길이(문자 수)입니다.
+        //- **개념**: 캐시할 수 있는 SQL 문의 최대 길이(문자 수)입니다.
         config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
 
-        // HikariDataSource 클래스에 위의 설정 클래스를 담아주기
+        //HikariDataSource 클래스에, 위의 설정 클래스를 담아주기
         ds = new HikariDataSource(config);
     }
 
-    public Connection getConnection() throws Exception {
+    public Connection getConnection() throws  Exception {
         return ds.getConnection();
     }
-
 
 }

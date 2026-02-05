@@ -15,7 +15,6 @@ public class MenuInputController extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
-
         resp.setContentType("text/html;charset=UTF-8");
         resp.setCharacterEncoding("UTF-8");
         // 순서1, 요청이 잘 왔는지 확인.

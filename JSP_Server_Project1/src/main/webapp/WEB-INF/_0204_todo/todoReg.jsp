@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: it
-  Date: 26. 1. 30.
-  Time: 오후 3:09
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,16 +5,16 @@
 </head>
 <body>
 <h1>todoReg 글쓰기 임시 화면입니다.</h1>
-<a href="/todo/register_0204">목록가기</a>
- <form action="/todo/register_0204" method="post">
-     <div>
-         <input type="text" name="title" placeholder="todo 제목을 입력해주세요">
-     </div>
-     <div>
-         <input type="date" name="dueDate">
-     </div>
-     <button type="reset">초기화</button>
-     <button type="submit">등록처리</button>
- </form>
+<a href="/todo/list_0204">목록가기</a>
+<form action="/todo/register_0204" method="post">
+    <div>
+        <input type="text" name="title" placeholder="todo 제목을 입력해주세요">
+    </div>
+    <div>
+        <input type="date" name="dueDate">
+    </div>
+    <button type="reset">초기화</button>
+    <button type="submit">등록처리</button>
+</form>
 </body>
 </html>
