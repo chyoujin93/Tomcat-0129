@@ -1,7 +1,7 @@
-package com.busanit501.jsp_server_project1._0205_todo.controller;
+package com.busanit501.jsp_server_project1._0206_todo.controller;
 
-import com.busanit501.jsp_server_project1._0205_todo.dto._0205_2_TodoDTO;
-import com.busanit501.jsp_server_project1._0205_todo.service._0205_1_TodoService;
+import com.busanit501.jsp_server_project1._0206_todo.dto._0206_6_TodoDTO;
+import com.busanit501.jsp_server_project1._0206_todo.service._0206_2_TodoService;
 import lombok.extern.log4j.Log4j2;
 
 import javax.servlet.ServletException;
@@ -14,10 +14,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 @Log4j2
-@WebServlet(name="_0205_11_TodoUpdateController", urlPatterns = "/todo/update_0205")
-public class _0205_11_TodoUpdateController extends HttpServlet {
+@WebServlet(name="_0206_11_TodoUpdateController", urlPatterns = "/todo/update_0206")
+public class _0206_11_TodoUpdateController extends HttpServlet {
 
-    private _0205_1_TodoService todoService = _0205_1_TodoService.INSTANCE;
+    private _0206_2_TodoService todoService = _0206_2_TodoService.INSTANCE;
     private final DateTimeFormatter DATEFORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     // 수정 폼 화면
     // 이미 글은 작성이 되어 있고, DB 서버에 저장이 된상태.
@@ -29,22 +29,22 @@ public class _0205_11_TodoUpdateController extends HttpServlet {
         // 받을 때 한글 설정,
         req.setCharacterEncoding("UTF-8");
 
-        log.info("todo/update_0205 수정 화면입니다.");
+        log.info("todo/update_0206 수정 화면입니다.");
         //서비스에 전달.
         try {
             // 하나 조회 했고, 수정 화면으로 넘갈 때, 우리는 조회하는 todo의 tno 번호를 알고 있다.
-            // 하나조회(상세보기) , URL : http://localhost:8080/todo/read_0205?tno=15
+            // 하나조회(상세보기) , URL : http://localhost:8080/todo/read_0206?tno=15
             // 여기서, tno 번호를 서버에 전달하기.
             // 서버입장에서, tno 번호를 가져오기. 문자열 -> 숫자 타입 변경, 파싱 : Long.parseLong()
             Long tno = Long.parseLong(req.getParameter("tno"));
 
             // DB 서버에게 일시키기, 우리는 서비스를 고용해서, 일 시키자.
             // DB로 하나 조회 된 데이터를 가지고 왔음.
-            _0205_2_TodoDTO todoDTO = todoService.get(tno);
+            _0206_6_TodoDTO todoDTO = todoService.get(tno);
 
             // 화면에 전달.
             req.setAttribute("dto", todoDTO);
-            req.getRequestDispatcher("/WEB-INF/_0205_todo/modify.jsp").forward(req,resp);
+            req.getRequestDispatcher("/WEB-INF/_0206_todo/modify.jsp").forward(req,resp);
 
             // 보낼 때 한글 설정,
             // 나중에, 서버에 한번만 설정해서, 따로 설정 없이, 이용만 하면됨.
@@ -73,7 +73,7 @@ public class _0205_11_TodoUpdateController extends HttpServlet {
 
         // 수정할 내용을 받은 상태, 수정된 내용으로 , 서비스에게 일을 시키기.
         // 넘어온 데이터를 dto 담기.
-        _0205_2_TodoDTO todoDTO = _0205_2_TodoDTO.builder()
+        _0206_6_TodoDTO todoDTO = _0206_6_TodoDTO.builder()
                 .tno(Long.parseLong(tno))
                 .title(title)
                 // dueDate 문자열 -> LocalDate 타입으로 변경하고, 원하는 포맷팅 :yyyy-MM-dd
@@ -92,6 +92,6 @@ public class _0205_11_TodoUpdateController extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        resp.sendRedirect("/todo/list_0205");
+        resp.sendRedirect("/todo/list_0206");
     }
 }
