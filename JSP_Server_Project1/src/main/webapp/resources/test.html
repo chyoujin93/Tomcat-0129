@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<!--<h1>Hello, world!</h1>-->
+
+<!--
+container: 부트스트랩에서 레이아웃의 뼈대가 되는 클래스.
+ 콘텐츠를 화면 중앙에 정렬하고, 브라우저 창 크기에 맞춰 반응형으로
+ 최대 너비(Max-width)를 제한합니다.
+
+ 2. px-4: 좌우 안쪽 여백(Padding)을 지정합니다.
+    4: 부트스트랩 간격 척도의 4단계 (기본 1.5rem, 약 24px)
+
+3. row: 내부의 열(col)들을 가로로 나란히 배치하기 위한 Flexbox 컨테이너입니다.
+
+4. gx-5: 열과 열 사이의 **가로 간격(Gutter)**을 지정합니다.
+    5: 부트스트랩 간격 척도의 5단계 (가장 넓은 3rem, 약 48px)
+
+5. col: 그리드의 열을 의미. col-6처럼 특정 숫자를 지정하지 않고 col만 단독으로 쓰면,
+남아있는 가로 공간을 형제 요소들과 동일한 비율로 나누어 가짐.
+-->
+
+<!--<div class="container px-4">-->
+<!--    <div class="row gx-5">-->
+<!--        <div class="col">-->
+<!--            <div class="p-3 border bg-light">Custom column padding</div>-->
+<!--        </div>-->
+<!--        <div class="col">-->
+<!--            <div class="p-3 border bg-light">Custom column padding</div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!-- 테스트 코드 -->
+<!-- container-fluid는
+모바일 기기부터 초대형 와이드 모니터까지 기기 크기와 상관없이
+항상 브라우저 가로 너비의 100%를 꽉 채워 사용합니다.
+보통 넷플릭스나 유튜브처럼 화면을 넓게 써야 하는 서비스에서 주로 사용합니다. -->
+<div class="container-fluid">
+    <div class="row">
+<!--    <h1> Header </h1>-->
+<!--        네비게이션 추가 작업 -->
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- 추가1-->
+        <div class="row content">
+            <!-- 추가2-->
+            <div class="col">
+                <!-- 추가3 -->
+                <div class="card">
+                    <div class="card-header">
+                        Featured
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row content">
+        <h1> Content </h1>
+    </div>
+    <div class="row footer">
+<!--        <h1> Footer </h1>-->
+<!--        추가1 -->
+        <div class="row fixed-bottom" style="z-index: -100">
+<!--            추가2 -->
+            <footer class="py-1 my-1">
+<!--            추가3 -->
+                <p class="text-center text-muted">
+                    Footer
+                </p>
+            </footer>
+
+        </div>
+    </div>
+</div>
+
+<!-- 카드 레이아웃 예시1 -->
+<!--<div class="card" style="width: 18rem;">-->
+<!--    <img src="..." class="card-img-top" alt="...">-->
+<!--    <div class="card-body">-->
+<!--        <h5 class="card-title">Card title</h5>-->
+<!--        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- 카드 레이아웃 예시2 -->
+<!--<div class="card">-->
+<!--    <div class="card-header">-->
+<!--        Featured-->
+<!--    </div>-->
+<!--    <div class="card-body">-->
+<!--        <h5 class="card-title">Special title treatment</h5>-->
+<!--        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
+
+<!--===========================================================================================-->
+<!-- http://localhost:8080/resources/test.html -> 재컴파일없음. 로직없음. 그냥 파일응답 -->
+<!-- 화면에 직접 접근 (라우팅/컨트롤러로 접근하는게 아님) -->
+<!-- = Spring MVC 거치지 않는다. = 그냥 파일 직접 서빙이다. = HTML 수정은 보통 재배포 없이 바로 반영된다. -->
+<!-- 컨트롤러가 아니므로 재배포 필요 없음. html 정적 파일, 재배포 없이 새로고침하면 바로 반영됨. -->
+<!-- 왜냐면, 컴파일 과정이 없고, 서버 로직이 개입하지 않기 때문. -->
+
+<!-- Spring은 두 가지를 처리함.
+  1. 동적 요청 (컨트롤러)
+  2. 정적 리소스 (HTML, CSS, JS, 이미지)
+  정적 리소스는 성능 때문에 컨트롤러 안 거치게 설계됨.
+  (MVC 요청 흐름은 생각보다 무거움. 서버 CPU 연산이 불필요하게 사용됨. -> 서버 금방 과부하
+  비유하자면, 컨트롤러 경유는 요리주문, 정적 리소스는 생수 건네주기인데,
+  생수 하나 주는데 주방장 거쳐서 요리 프로세스 돌릴 필요가 없는 것.
+  정적 리소스를 컨트롤러가 처리하면 매 요청마다 불필요한 로직/객체 생성이 발생
+  -> 트래픽 많을수록 성능 저하, 그래서 바로 파일 서빙 구조로 분리함. -->
+
