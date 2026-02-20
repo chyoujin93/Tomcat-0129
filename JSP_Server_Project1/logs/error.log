@@ -136,3 +136,31 @@
 10:10:42.399 [Test worker] INFO  com.busanit501.jsp_server_project1.service._0209_22_MemberServiceTests-uuid 를 이용한 조회 멤버 서비스 로그인 테스트2 memberDTO: _0209_18_MemberDTO(mid=youjin, mpw=1234, mname=유진, uuid=d91dad94-fd27-45e7-ba7b-29c32b637b89)
 16:36:17.632 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-시간 확인으로 마이바티스 임시 연결 확인 : 2026-02-19 16:36:17
 16:36:29.811 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-시간 확인으로 마이바티스 임시 연결 확인 : 2026-02-19 16:36:29
+10:15:18.696 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-시간 확인으로 마이바티스 임시 연결 확인 : 2026-02-20 10:15:18
+10:19:37.950 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-시간 확인으로 마이바티스 임시 연결 확인 : 2026-02-20 10:19:37
+10:21:11.551 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-시간 확인으로 마이바티스 임시 연결 확인 : 2026-02-20 10:21:11
+10:22:37.807 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-시간 확인으로 마이바티스 임시 연결 확인 : 2026-02-20 10:22:37
+11:23:10.423 [Test worker] INFO  com.busanit501.jsp_server_project1.springex_new_0219_keep.service.TodoServiceImpl- 서비스 작업: insert 기능 작업중. 
+11:23:10.444 [Test worker] INFO  com.busanit501.jsp_server_project1.springex_new_0219_keep.service.TodoServiceImpl- 서비스 작업: insert 기능 변환된 todoVO : TodoVO(tno=null, title=오늘 점심 뭐 먹지, dueDate=2026-02-20, finished=false, writer=최유진)
+11:27:27.209 [Test worker] INFO  com.busanit501.jsp_server_project1.springex_new_0219_keep.service.TodoServiceImpl- 서비스 작업: insert 기능 작업중. 
+11:27:27.229 [Test worker] INFO  com.busanit501.jsp_server_project1.springex_new_0219_keep.service.TodoServiceImpl- 서비스 작업: insert 기능 변환된 todoVO : TodoVO(tno=null, title=오늘 점심 뭐 먹지2, dueDate=2026-02-20, finished=false, writer=최유진2)
+16:52:20.255 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=68, title=오늘 점심 뭐 먹었나용, dueDate=2026-02-28, finished=false, writer=최유진)
+16:52:20.256 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=11, title=오늘 점심 뭐 먹지2, dueDate=2026-02-20, finished=false, writer=최유진2)
+16:52:20.256 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=10, title=오늘 점심 뭐 먹지, dueDate=2026-02-20, finished=false, writer=최유진)
+16:52:20.256 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=9, title=웹서버프로그래밍평가시험수정, dueDate=2026-02-11, finished=false, writer=null)
+16:52:20.257 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=8, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-06, finished=true, writer=null)
+16:52:20.257 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=7, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-05, finished=true, writer=null)
+16:52:20.257 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=6, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true, writer=null)
+16:52:20.257 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=5, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true, writer=null)
+16:52:20.258 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=3, title=샘플제목, dueDate=2026-02-03, finished=false, writer=null)
+16:52:20.259 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=1, title=샘플2수정, dueDate=2026-02-03, finished=false, writer=null)
+16:53:12.268 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=68, title=오늘 점심 뭐 먹었나용, dueDate=2026-02-28, finished=false, writer=최유진)
+16:53:12.269 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=11, title=오늘 점심 뭐 먹지2, dueDate=2026-02-20, finished=false, writer=최유진2)
+16:53:12.269 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=10, title=오늘 점심 뭐 먹지, dueDate=2026-02-20, finished=false, writer=최유진)
+16:53:12.269 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=9, title=웹서버프로그래밍평가시험수정, dueDate=2026-02-11, finished=false, writer=null)
+16:53:12.270 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=8, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-06, finished=true, writer=null)
+16:53:12.270 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=7, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-05, finished=true, writer=null)
+16:53:12.270 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=6, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true, writer=null)
+16:53:12.270 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=5, title=샘플제목, 오늘 점심 뭐먹지?, dueDate=2026-02-04, finished=true, writer=null)
+16:53:12.270 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=3, title=샘플제목, dueDate=2026-02-03, finished=false, writer=null)
+16:53:12.271 [Test worker] INFO  com.busanit501.jsp_server_project1.mapper.TodoMapperTests-TodoVO(tno=1, title=샘플2수정, dueDate=2026-02-03, finished=false, writer=null)
